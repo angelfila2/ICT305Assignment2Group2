@@ -11,7 +11,7 @@ st.set_page_config(
 )
 file_path = Path("data/merged_life_work.csv")
 title = "📊 Healthcare Workforce vs Life Expectancy at Birth"
-ylabel = "Life Expectancy at Birth (Years)"Years)"
+ylabel = "Life Expectancy at Birth (Years)"
 
 # Load the selected dataset
 df = pd.read_csv(file_path)
